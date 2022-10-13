@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ME</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Font Link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Link -->
+  <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+
+  <!-- CSS File Link -->
+  <link rel="stylesheet" href="css/keyframe.css">
+  <link rel="stylesheet" href="css/default.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <script nonce="2bfaa0f6-11e1-43c3-89da-144003ac3a95">
+    (function (w, d) {
+      ! function (a, e, t, r) {
+        a.zarazData = a.zarazData || {};
+        a.zarazData.executed = [];
+        a.zaraz = {
+          deferred: [],
+          listeners: []
+        };
+        a.zaraz.q = [];
+        a.zaraz._f = function (e) {
+          return function () {
+            var t = Array.prototype.slice.call(arguments);
+            a.zaraz.q.push({
+              m: e,
+              a: t
+            })
+          }
+        };
+        for (const e of ["track", "set", "debug"]) a.zaraz[e] = a.zaraz._f(e);
+        a.zaraz.init = () => {
+          var t = e.getElementsByTagName(r)[0],
+            z = e.createElement(r),
+            n = e.getElementsByTagName("title")[0];
+          n && (a.zarazData.t = e.getElementsByTagName("title")[0].text);
+          a.zarazData.x = Math.random();
+          a.zarazData.w = a.screen.width;
+          a.zarazData.h = a.screen.height;
+          a.zarazData.j = a.innerHeight;
+          a.zarazData.e = a.innerWidth;
+          a.zarazData.l = a.location.href;
+          a.zarazData.r = e.referrer;
+          a.zarazData.k = a.screen.colorDepth;
+          a.zarazData.n = e.characterSet;
+          a.zarazData.o = (new Date).getTimezoneOffset();
+          a.zarazData.q = [];
+          for (; a.zaraz.q.length;) {
+            const e = a.zaraz.q.shift();
+            a.zarazData.q.push(e)
+          }
+          z.defer = !0;
+          for (const e of [localStorage, sessionStorage]) Object.keys(e || {}).filter((a => a.startsWith(
+            "_zaraz_"))).forEach((t => {
+            try {
+              a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t))
+            } catch {
+              a.zarazData["z_" + t.slice(7)] = e.getItem(t)
+            }
+          }));
+          z.referrerPolicy = "origin";
+          z.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData)));
+          t.parentNode.insertBefore(z, t)
+        };
+        ["complete", "interactive"].includes(e.readyState) ? zaraz.init() : a.addEventListener("DOMContentLoaded",
+          zaraz.init)
+      }(w, d, 0, "script");
+    })(window, document);
+  </script>
+
+
+</head>
+
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg fixed-top ftco-navbar-light" id="navbar">
+    <div class="container">
+      <a class="navbar-brand align-items-center" href="index.html">
+        ME
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactme">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-wrap" id="home" style="background-image:url(images/1.jpg)">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text align-items-center">
+        <div class="col-lg-9">
+          <div class="text mt-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <span class="subheading">Hi There!</span>
+            <h1 class="mb-4">I am Md. Mehedi Hassan<br>
+              <span class="typewrite" data-period="2000"
+                data-type='[ "A Front End Web Designer", "A Creator", "A Designer", "A Devloper" ]'>
+                <span class="wrap"></span>
+              </span>
+            </h1>
+            <div class="w-md-75 w-100">
+              <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                there live the blind texts.</p>
+              <p><a href="https://www.fiverr.com/mehedi_hassan_w" target="_blank" class="btn btn-primary p-4 py-3">Hire Me</a>
+                <a href="https://github.com/mehedihassandev" target="_blank" class="btn btn-white p-4 py-3 ms-lg-2">View Portfolio</a>
+              </p>
+              <p class="social-media mt-5">
+                <a href="https://www.facebook.com/mdmehedihassan.dev/" target="_blank"><span class="ion-ios-add"></span> Facebook</a>
+                <a href="https://twitter.com/mehedihassanDev" target="_blank"><span class="ion-ios-add"></span> Twitter</a>
+                <a href="https://www.linkedin.com/in/mdmehedihassandev/" target="_blank"><span class="ion-ios-add"></span> Linkedin</a>
+                <a href="https://www.youtube.com" target="_blank"><span class="ion-ios-add"></span> Youtube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section" id="about">
+    <div class="container-xl">
+      <div class="row g-xl-5">
+        
+
+        <div class="col-md-6 heading-section" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <div class="my-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="aboutme-tab" data-bs-toggle="tab" href="#aboutme" role="tab"
+                  aria-controls="aboutme" aria-selected="true">About Me</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="skills-tab" data-bs-toggle="tab" href="#skills" role="tab"
+                  aria-controls="skills" aria-selected="false">Skills</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab"
+                  aria-controls="experience" aria-selected="false">Experience</a>
+              </li>
+            </ul>
+            <div class="tab-content py-4" id="myTabContent">
+              <div class="tab-pane fade show active" id="aboutme" role="tabpanel" aria-labelledby="aboutme-tab">
+                <h2 class="mb-4">My Story</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                  language ocean. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sequi, excepturi consequatur eius, provident ducimus officiis explicabo sit minus deserunt enim distinctio assumenda ipsum non dolorum earum! Quod, odio animi.</p>
+                
+              </div>
+              <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                <h2 class="mb-4">Skills</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                  language ocean.</p>
+                <div class="row mt-5">
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>HTML</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                          aria-valuemax="100" style="width:80%">
+                          <span>100%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>CSS</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                          aria-valuemax="100" style="width:95%">
+                          <span>95%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>Bootstrap</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0"
+                          aria-valuemax="100" style="width:88%">
+                          <span>95%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>JavaScript</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0"
+                          aria-valuemax="100" style="width:89%">
+                          <span>70%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>JQueary</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0"
+                          aria-valuemax="100" style="width:89%">
+                          <span>80%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>SASS</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0"
+                          aria-valuemax="100" style="width:89%">
+                          <span>60%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>Photoshop</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0"
+                          aria-valuemax="100" style="width:89%">
+                          <span>90%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="progress-wrap">
+                      <h3>Figma</h3>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0"
+                          aria-valuemax="100" style="width:89%">
+                          <span>90%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="resume-wrap d-flex align-item-stretch" data-aos="fade-up" data-aos-duration="1000"
+                      data-aos-delay="400">
+                      <div class="w-100">
+                        <h2>Front End Web Devloper</h2>
+                        <span class="date">2018-2022</span> <span class="position"><i
+                            class="ion-ios-pin me-2"></i>Fiverr</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error laudantium consequuntur fuga. Voluptatibus, esse aliquam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sit rerum, aliquam dolorem reiciendis sint perferendis quas nihil fugiat deleniti accusamus temporibus quis perspiciatis sapiente tempora, asperiores aliquid incidunt quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt alias quidem tempore excepturi ipsum commodi incidunt nam. Maiores voluptatibus expedita architecto, autem mollitia corporis, neque soluta illum totam dicta aliquam!</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100"
+          data-aos-duration="1000">
+          <div class="img img-about" style="background-image:url(images/2.jpg)">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="ftco-section" id="services">
+    <div class="container-xl">
+      <div class="row justify-content-center">
+        <div class="col-md-10 heading-section text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+          <span class="subheading">Services</span>
+          <h2 class="mb-4">The Services I'll Provide My Clients</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100"
+          data-aos-duration="1000">
+          <div class="services-2">
+            <div class="icon"><span class="flaticon-code"></span></div>
+            <div class="text">
+              <h2>UI &amp; UX Design</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.</p>
+              <p><a href="#" class="">Read more <span class="fa fa-long-arrow-right"></span></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100"
+          data-aos-duration="1000">
+          <div class="services-2">
+            <div class="icon"><span class="flaticon-web-programming"></span></div>
+            <div class="text">
+              <h2>Web Development</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.</p>
+              <p><a href="#" class="">Read more <span class="fa fa-long-arrow-right"></span></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100"
+          data-aos-duration="1000">
+          <div class="services-2">
+            <div class="icon"><span class="flaticon-vector"></span></div>
+            <div class="text">
+              <h2>Graphic Design</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.</p>
+              <p><a href="#" class="">Read more <span class="fa fa-long-arrow-right"></span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row mt-5 justify-content-center">
+        <div class="col-md-8">
+          <p><strong>Have any works you want to done by me? <a href="#">Contact Me</a></strong></p>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts.</p>
+        </div>
+      </div> -->
+
+    </div>
+  </section>
+
+
+
+  <section class="ftco-section testimony-section bg-light">
+    <div class="container-xl">
+      <div class="row justify-content-center pb-4">
+        <div class="col-md-7 text-center heading-section" data-aos="fade-up" data-aos-duration="1000">
+          <!-- <span class="subheading">Coustomer</span> -->
+          <h2 class="mb-5">Our Client Say</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <div class="carousel-testimony">
+            <div class="item">
+              <div class="testimony-wrap">
+                <div class="text">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="user-img"
+                      style="background-image:url(images/xperson_1.jpg.pagespeed.ic.P4pHl6glbj.jpg)">
+                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left">
+                      </div>
+                    </div>
+                    <div class="ps-3 tx">
+                      <p class="name">Roger Scott</p>
+                      <span class="position">Marketing Manager</span>
+                    </div>
+                  </div>
+                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap">
+                <div class="text">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="user-img"
+                      style="background-image:url(images/xperson_2.jpg.pagespeed.ic.yyrmjBH91b.jpg)">
+                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left">
+                      </div>
+                    </div>
+                    <div class="ps-3 tx">
+                      <p class="name">Roger Scott</p>
+                      <span class="position">Marketing Manager</span>
+                    </div>
+                  </div>
+                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap">
+                <div class="text">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="user-img" style="background-image:url(images/person_3.jpg)">
+                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left">
+                      </div>
+                    </div>
+                    <div class="ps-3 tx">
+                      <p class="name">Roger Scott</p>
+                      <span class="position">Marketing Manager</span>
+                    </div>
+                  </div>
+                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap">
+                <div class="text">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="user-img"
+                      style="background-image:url(images/xperson_1.jpg.pagespeed.ic.P4pHl6glbj.jpg)">
+                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left">
+                      </div>
+                    </div>
+                    <div class="ps-3 tx">
+                      <p class="name">Roger Scott</p>
+                      <span class="position">Marketing Manager</span>
+                    </div>
+                  </div>
+                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap">
+                <div class="text">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="user-img"
+                      style="background-image:url(images/xperson_2.jpg.pagespeed.ic.yyrmjBH91b.jpg)">
+                      <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left">
+                      </div>
+                    </div>
+                    <div class="ps-3 tx">
+                      <p class="name">Roger Scott</p>
+                      <span class="position">Marketing Manager</span>
+                    </div>
+                  </div>
+                  <p class="mb-4 msg">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="ftco-section-counter img" style="background-image:url(images/xbg_3.jpg.pagespeed.ic.z_ltqRZXRc.jpg)">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row section-counter">
+        <div class="col-sm-6 col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div class="icon">
+              <span class="flaticon-customer-review"></span>
+            </div>
+            <div class="text">
+              <h2 class="number"><span class="countup">3000</span></h2>
+              <span class="caption">Happy Customer</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <div class="icon">
+              <span class="flaticon-complete"></span>
+            </div>
+            <div class="text">
+              <h2 class="number"><span class="countup">320</span></h2>
+              <span class="caption">Project Completed</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div class="icon">
+              <span class="flaticon-coffee"></span>
+            </div>
+            <div class="text">
+              <h2 class="number"><span class="countup">1000</span></h2>
+              <span class="caption">Cups of Coffee</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="ftco-section ftco-project" id="portfolio">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 heading-section text-center" data-aos="fade-up" data-aos-duration="1000">
+          <span class="subheading">Portfolio</span>
+          <h2>My Latest Work</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+            style="background-image:url(images/xproject-1.jpg.pagespeed.ic.qy3tUEpwWq.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+            style="background-image:url(images/xproject-2.jpg.pagespeed.ic.S7VN-qnm5z.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+            style="background-image:url(images/xproject-3.jpg.pagespeed.ic.F_zwiH0stO.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+            style="background-image:url(images/xproject-4.jpg.pagespeed.ic.GscbfoNHvq.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+            style="background-image:url(images/xproject-5.jpg.pagespeed.ic.WwQEjmOv-r.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+            style="background-image:url(images/xproject-6.jpg.pagespeed.ic.oJeeO27vYz.jpg)">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+      
+
+
+
+
+      
+
+
+
+
+
+
+
+
+  </section>
+
+
+  
+
+
+  <section class="ftco-section bg-light" id="blog">
+    <div class="container-xl">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 heading-section text-center" data-aos="fade-up" data-aos-duration="1000">
+          <span class="subheading">Our Blog</span>
+          <h2>Recent From Blog</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 d-flex">
+          <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <a href="blog-single.html" class="block-20 img"
+              style="background-image:url(images/ximage_1.jpg.pagespeed.ic.sYEsLcUyj_.jpg)">
+            </a>
+            <div class="text">
+              <p class="meta"><span><i class="fa fa-calendar me-1"></i>Jan. 18, 2021</span> <span><a href="#"><i
+                      class="fa fa-comment me-1"></i> 3 Comments</a></span></p>
+              <h3 class="heading mb-3"><a href="#">Tips About Creating A New Web Design</a></h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <a href="blog-single.html" class="block-20 img"
+              style="background-image:url(images/ximage_2.jpg.pagespeed.ic.cSUVyMwItV.jpg)">
+            </a>
+            <div class="text">
+              <p class="meta"><span><i class="fa fa-calendar me-1"></i>Jan. 18, 2021</span> <span><a href="#"><i
+                      class="fa fa-comment me-1"></i> 3 Comments</a></span></p>
+              <h3 class="heading mb-3"><a href="#">Tips About Creating A New Web Design</a></h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="ftco-section" id="pricing">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-7 text-center heading-section" data-aos="fade-up" data-aos-duration="1000">
+          <span class="subheading">My Pricing</span>
+          <h2 class="mb-3">Pricing &amp; <span>Packages</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <div class="block-7">
+            <div class="text-center">
+              <span class="excerpt d-block">Basic Plan</span>
+              <span class="price"><sup>$</sup> <span class="number">49K</span></span>
+              <div class="p-4 px-lg-5">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts.</p>
+              </div>
+              <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="block-7">
+            <div class="text-center">
+              <span class="excerpt d-block">Beginner Plan</span>
+              <span class="price"><sup>$</sup> <span class="number">79K</span></span>
+              <div class="p-4 px-lg-5">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts.</p>
+              </div>
+              <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <div class="block-7">
+            <div class="text-center">
+              <span class="excerpt d-block">Premium Plan</span>
+              <span class="price"><sup>$</sup> <span class="number">109K</span></span>
+              <div class="p-4 px-lg-5">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts.</p>
+              </div>
+              <a href="#" class="btn btn-primary btn-outline-primary d-block px-2 py-3">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="ftco-section ftco-no-pb" id="contactme">
+    <div class="container-fluid-xl">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-md-12">
+          <div class="wrapper">
+            <div class="row g-0">
+              <div class="col-lg-6 order-lg-last">
+                <div class="contact-wrap w-100 p-md-5 p-4">
+                  <h3>Contact us</h3>
+                  <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                  
+                  <form id="contactForm" name="contactForm" class="contactForm">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea name="message" class="form-control" id="message" cols="30" rows="4"
+                            placeholder="Create a message here"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="submit" value="Send Message" class="btn btn-primary">
+                          <div class="submitting"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- <div class="w-100 social-media mt-5">
+                    <h3>Follow me here</h3>
+                    <p>
+                      <a href="#">Behance</a>
+                      <a href="#">Dribble</a>
+                      <a href="#">Medium</a>
+                      <a href="#">Linkedin</a>
+                      <a href="#">Youtube</a>
+                    </p>
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="col-lg-6 d-flex align-items-stretch">
+                <div class="w-100 social-media-2 mt-5">
+                  <h3>Do You have any project ? Let's Talk</h3>
+                  <p>
+                    <a href="https://www.fiverr.com/mehedi_hassan_w" target="_blank">Fiverr</a>
+                    <a href="https://github.com/mehedihassandev" target="_blank">GitHub</a>
+                    <a href="https://www.facebook.com/mdmehedihassan.dev/" target="_blank">Facebook</a>
+                    <a href="https://www.linkedin.com/in/mdmehedihassandev/" target="_blank">Linkedin</a>
+                    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+                  </p>
+                </div>
+
+                <!-- <div id="map" class="bg-white"></div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section class="ftco-intro py-5 bg-primary">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-12">
+          <div class="row g-lg-5">
+            <div class="col-md-8 text-lg-right">
+              <h2 class="mb-0">Have any works you want to done by me?</h2>
+              <p>Far far away, behind the word mountains</p>
+            </div>
+            <div class="col-md-4 border-left d-flex align-items-center">
+              <p class="w-100"><a href="#" class="btn btn-white btn-outline-white d-block py-3">Contact Me</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/glightbox.min.js%2baos.js%2btypewritter.js.pagespeed.jc.krvZqN032w.js"></script>
+  <script>
+    eval(mod_pagespeed_Nha5IVlKj4);
+  </script>
+
+  <script>
+    eval(mod_pagespeed_UCryxWCxTA);
+  </script>
+
+  <script>
+    eval(mod_pagespeed_RLO0sVcgQg);
+  </script>
+
+  <script src="js/slideNav.js"></script>
+  <!-- Google Map JS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false">
+  </script>
+  <script src="js/google-map.js%2bmain.js.pagespeed.jc.xh_VzmgBjB.js"></script>
+
+  <script>
+    eval(mod_pagespeed_Ypfcmt9TGz);
+  </script>
+  <script>
+    eval(mod_pagespeed_g9FXYGgy1g);
+  </script>
+
+  <script async src="js/js.js"></script>
+  <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script> -->
+  <script defer src="js/beacon.min.js"
+    integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+    data-cf-beacon='{"rayId":"757f9a599b8dba5c","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}'
+    crossorigin="anonymous"></script>
+
+  <script src="js/custom.js"></script>
+
+</body>
+
+
+</html>
